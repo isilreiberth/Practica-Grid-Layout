@@ -71,11 +71,17 @@ body {
 }
 
 #website-areas #contenido article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #ccc;
   border: 1px solid #555;
 }
 
 #website-areas #lateral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: lateral;
   background: orange;
   color: white;
@@ -143,11 +149,17 @@ body {
 }
 
 #website #contenido article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #ccc;
   border: 1px solid #555;
 }
 
 #website #lateral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-column: 5 / 6;
   background: orange;
   color: white;
